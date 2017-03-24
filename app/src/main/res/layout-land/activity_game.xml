@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="in.vilik.kps.GameActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/welcome"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:id="@+id/won_lost"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/player_score"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/player_score"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/computer_score"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/computer_score"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/rock"
+        android:layout_alignBottom="@+id/won_lost"
+        android:layout_alignParentEnd="true"
+        android:scaleX="-1"
+        android:layout_alignParentRight="true"
+        android:id="@+id/computer_hand"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/won_lost"
+        android:src="@drawable/rock"
+        android:id="@+id/player_hand"/>
+</RelativeLayout>

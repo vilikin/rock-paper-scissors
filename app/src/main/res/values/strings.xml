@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KPS</string>
+    <string name="you_won">You won!</string>
+    <string name="you_lost">You lost!</string>
+    <string name="draw">It\'s a draw!</string>
+    <string name="welcome">Welcome</string>
+    <string name="player_score">PLAYER SCORE: <b>%1$d</b></string>
+    <string name="computer_score">COMPUTER SCORE: <b>%1$d</b></string>
+    <string name="game_over_win">GAME OVER! YOU WON!</string>
+    <string name="game_over_loss">GAME OVER! YOU LOST!</string>
+    <string name="game_over_draw">GAME OVER! DRAW!</string>
+</resources>
